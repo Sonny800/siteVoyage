@@ -1,0 +1,54 @@
+.wrapperarchivepays {
+	width: 80%;
+	margin: 0 auto;
+}
+
+.titlearchivepays {
+	font-family: 'shadows into light';
+	text-align: center;
+	margin: 3em 0;
+}
+
+.archivepays {
+	display: inline-flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+	text-align: center;
+	@media (max-width: $breakpoint-medium) {
+		flex-direction: column;
+		display: flex;
+	}
+}
+
+.archivecard {
+	border: 1px solid silver;
+	margin: 1em 1em;
+	width: 100%;
+	border-radius: 10px;
+	text-align: center;
+	padding: 1em 2em;
+	background-image: linear-gradient(270deg, #ffffff 0%,#e5e5e5 100%);
+}
+
+.archivesinglepayscard {
+	margin: 1em auto;
+	width: 60%;
+}
+
+.archivelink {
+	font-family: 'Architects Daughter';
+	font-weight: bold;
+	font-size: 1.3em;
+	&:hover {
+		text-decoration: overline;
+		color: darken(gold, 20%);
+		transition: 0.4s;
+	}
+}
+
+.archiveinfo {
+	font-family: 'Titillium Web';
+	padding: 1em 0 0 0;
+	font-size: 1.1em;
+}

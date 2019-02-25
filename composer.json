@@ -1,0 +1,22 @@
+{
+    "repositories": [{
+      "type": "composer",
+      "url": "https://wpackagist.org"
+    }],
+    "require": {
+      "php": ">=5.4",
+      "johnpbloch/wordpress": "4.*",
+      "wpackagist-plugin/advanced-custom-fields": "*",
+      "wpackagist-plugin/acf-to-rest-api": "*",
+      "wpackagist-plugin/custom-post-type-ui": "*",
+      "wpackagist-theme/twentyseventeen": "*",
+      "wpackagist-plugin/simply-show-hooks": "*"
+    },
+    "extra": {
+      "wordpress-install-dir": "wp",
+      "installer-paths": {
+        "content/plugins/{$name}/": ["type:wordpress-plugin"],
+        "content/themes/{$name}/": ["type:wordpress-theme"]
+      }
+    }
+}

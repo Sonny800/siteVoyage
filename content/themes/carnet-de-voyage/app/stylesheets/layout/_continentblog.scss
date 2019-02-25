@@ -1,0 +1,84 @@
+.wrapperblog {
+  background-color: white;
+  margin: -1.4em 0;
+}
+
+.titleblog {
+
+  text-align: center;
+  font-weight: bold;
+  padding-top: 1.8em; 
+}
+
+.continentblog {
+  background-color: grey;
+  text-align: center;
+  padding: 4em 2em;
+  width: 70%;
+  margin: 4em auto;
+  border-radius: 10px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 1;
+	@media (max-width: $breakpoint-medium) {
+		width: 100%;
+		padding: 1em 1em;
+	}
+
+  .titrecontinentblog {
+    opacity: 0.5;
+  }
+  .titrearticleblog {
+
+    font-weight: bold;
+    color: whitesmoke;
+    font-size: 4em;
+		@media (max-width: $breakpoint-medium) {
+			font-size: 3em;
+			padding-bottom: 0.3em;
+		}
+  }
+  .resumearticleblog {
+
+    font-size: 2em;
+    color: whitesmoke;
+		@media (max-width: $breakpoint-medium) {
+		color: black;
+		}
+  }
+  .lienarticleblog {
+
+    background-color: orange;
+    border-radius: 10px;
+    padding: 0.5em 1em;
+    font-weight: bold;
+  }
+  .lienarticleblog:hover {
+    background-color: whitesmoke;
+    color: orange;
+    text-decoration: overline;
+    transition: 0.5s;
+    font-weight: bold;
+  }
+  .liencontinentblog {
+
+    font-weight: bold;
+    font-size: 3em;
+    color: whitesmoke;
+
+  }
+  .liencontinentblog:hover {
+    color: orange;
+    text-decoration: overline;
+    transition: 0.5s;
+  }
+  .titrecontinentblog:hover {
+    opacity: 1;
+  }
+}
+.continentblog:hover {
+  opacity: 0.6;
+  transition: 0.3s
+}

@@ -1,0 +1,45 @@
+#cdv-posts {
+  padding: 1em;
+  width: 80%;
+  margin: auto;
+
+}
+#cdv-posts .posts {
+	height: 80vh;
+  display: flex;
+  justify-content: space-between;
+  @media (max-width: $breakpoint-medium ){
+		flex-direction: column;
+		margin-bottom: 10em;
+	}
+
+}
+#cdv-posts .posts article {
+  text-align: center;
+	background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+	justify-content: center;
+	align-items: center;
+	display: inline-flex;
+	margin: 1em;
+  width: 100%;
+  min-height: 30vh;
+  padding: 5em;
+  color: white;
+
+}
+#cdv-posts .posts article {
+
+  transition: 0.3s;
+
+}
+#cdv-posts .posts article:hover {
+
+  opacity: 0.6;
+
+}
+#text {
+  margin: 5em;
+}

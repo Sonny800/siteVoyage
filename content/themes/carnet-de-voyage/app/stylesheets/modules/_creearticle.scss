@@ -1,0 +1,54 @@
+.postart {
+	@media (max-width: $breakpoint-medium) {
+		width: 100%;
+		padding: 1em;
+		margin: 0 auto;
+	}
+	font-family: 'titillium Web';
+	width: 70%;
+	margin: 2em auto;
+}
+
+label {
+	padding-right: 1em;
+}
+
+.titlefieldset {
+	border: none;
+	border-bottom: 1px solid grey;
+	&:focus {
+		border: none;
+		border-bottom: 1px solid grey;
+	}
+}
+
+.category {
+	.postform {
+		border: none;
+		border-radius: 10px;
+		padding: 0.3em;
+		font-family: 'titillium web';
+		background-color: whitesmoke;
+	}
+}
+
+#bottle_front {
+	border: none;
+	border-radius: 10px;
+	padding: 0.5em;
+	font-family: 'titillium web';
+	background-color: whitesmoke;
+}
+
+#description {
+	width: 100%;
+	height: 40vh;
+}
+
+#submit {
+	border: none;
+	border-radius: 5px;
+	padding: 0.8em;
+	font-family: 'titillium web';
+	background-color: whitesmoke;
+}

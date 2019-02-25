@@ -1,0 +1,20 @@
+#menu-menu-principal {
+  display: flex;
+  background-color: white;
+  justify-content: space-between;
+  padding: 2em 5em;
+  font-size: 2em;
+  margin-top: 0;
+  @media (max-width: $breakpoint-medium) {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+  }
+  
+  a:hover {
+    color: orange;
+    text-decoration: overline;
+    transition: 0.5s;
+  }
+}
